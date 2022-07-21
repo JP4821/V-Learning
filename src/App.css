@@ -41,6 +41,15 @@ footer .list-group-item{
 footer ul li a:hover{
   color: #dfdfdf !important;
 }
+.mbi-botm{
+  display: none;
+}
+.mbl{
+  font-size: 12px;
+  font-weight: 600;
+  background: rgba(221, 221, 221, 0.8) !important;
+  box-shadow: 0 -3px 3px -3px #333;
+}
 
 
 @media (min-width:386px) and (max-width:686px) {
@@ -69,6 +78,12 @@ footer ul li a:hover{
     left: 44% !important;
   }
 }
+@media (min-width:386px) and (max-width:768px) {
+  .mbi-botm{
+    display: block;
+  }
+}
+
 @media (min-width:689px) and (max-width:992px) {
   .slider h5{
     font-size: 14px;

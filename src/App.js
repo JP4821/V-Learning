@@ -4,6 +4,7 @@ import Coursespan from './Components/Coursespan';
 import Footer from './Components/Footer';
 import Header from './Components/Header';
 import Herosection from './Components/Herosection';
+import MobileBottom from './Components/MobileBottom';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Coursespan />
       <CourseCards />
       <Footer />
+      <MobileBottom />
     </>
   );
 }
