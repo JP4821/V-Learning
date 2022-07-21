@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/V-Learning/static/css/main.6cecec0b.css",
-    "main.js": "/V-Learning/static/js/main.bb9c16fc.js",
+    "main.css": "/V-Learning/static/css/main.b162b015.css",
+    "main.js": "/V-Learning/static/js/main.5ba7d5cd.js",
     "static/js/787.a42bda54.chunk.js": "/V-Learning/static/js/787.a42bda54.chunk.js",
     "static/media/node.png": "/V-Learning/static/media/node.7f018a10009f90a69f52.png",
     "static/media/slide2.png": "/V-Learning/static/media/slide2.5865c9d3d5c3312977c2.png",
@@ -13,12 +13,12 @@
     "static/media/vlogo2.png": "/V-Learning/static/media/vlogo2.18b26fb1f0e5745d17d9.png",
     "static/media/js.jpg": "/V-Learning/static/media/js.bf761cf8ada1fb16a8a1.jpg",
     "index.html": "/V-Learning/index.html",
-    "main.6cecec0b.css.map": "/V-Learning/static/css/main.6cecec0b.css.map",
-    "main.bb9c16fc.js.map": "/V-Learning/static/js/main.bb9c16fc.js.map",
+    "main.b162b015.css.map": "/V-Learning/static/css/main.b162b015.css.map",
+    "main.5ba7d5cd.js.map": "/V-Learning/static/js/main.5ba7d5cd.js.map",
     "787.a42bda54.chunk.js.map": "/V-Learning/static/js/787.a42bda54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6cecec0b.css",
-    "static/js/main.bb9c16fc.js"
+    "static/css/main.b162b015.css",
+    "static/js/main.5ba7d5cd.js"
   ]
 }
