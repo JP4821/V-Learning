@@ -43,19 +43,19 @@ footer ul li a:hover{
 }
 
 
-@media (min-width:386px) and (max-width:992px) {
+@media (min-width:386px) and (max-width:768px) {
   .slider h5{
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 0;
   }
   .slider h3{
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 0;
   }
   .slider p, ul li{
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 0;
-    line-height: 18px;
+    line-height: 15px;
   }
   .slider ul{
     margin-bottom: 0px !important;
