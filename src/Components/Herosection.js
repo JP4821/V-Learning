@@ -36,8 +36,8 @@ const Herosection = () => {
                             <li>Build real-world projects by mastering React, MERN, JavaScript, etc.</li>
                             <li>Learn the essential Full Stack development concepts from scratch</li>
                         </ul>
-                        <Button variant="warning" className="px-5 px-sm-2">Register Now</Button>
-                        <Button variant="info" className="px-5 ms-2 px-sm-2">Download Syllabus</Button>
+                        <Button variant="warning" className="px-5 px-sm-2 px-xs-2">Register Now</Button>
+                        <Button variant="info" className="px-5 ms-2 px-sm-2 px-xs-2">Download Syllabus</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
