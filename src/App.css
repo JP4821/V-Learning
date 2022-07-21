@@ -11,7 +11,8 @@ body {
 .bgColor {
   background: rgba(221, 221, 221, 0.8) !important;
 }
-.text-start {
+
+.slider .text-start {
   top: 50% !important;
   left: 35% !important;
 }
@@ -39,4 +40,32 @@ footer .list-group-item{
 }
 footer ul li a:hover{
   color: #dfdfdf !important;
+}
+
+
+@media (min-width:386px) and (max-width:992px) {
+  .slider h5{
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .slider h3{
+    font-size: 17px;
+    margin-bottom: 0;
+  }
+  .slider p, ul li{
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 18px;
+  }
+  .slider ul{
+    margin-bottom: 0px !important;
+  }
+  .slider button{
+    padding: 1px 5px;
+    font-size: 14px;
+  }
+  .slider .text-start {
+    top: 30% !important;
+    left: 35% !important;
+  }
 }
