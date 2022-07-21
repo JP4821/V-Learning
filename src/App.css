@@ -64,8 +64,11 @@ footer ul li a:hover{
     padding: 1px 5px;
     font-size: 14px;
   }
+  .carousel-caption{
+    width: 100% !important;
+  }
   .slider .text-start {
-    top: 30% !important;
-    left: 35% !important;
+    top: 40% !important;
+    left: 60% !important;
   }
 }
