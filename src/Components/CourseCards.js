@@ -4,7 +4,7 @@ import HTML5 from '../Assets/html.png'
 import CSS3 from '../Assets/css.jpg'
 import JS from '../Assets/js.jpg'
 import REACT from '../Assets/react.png'
-import NODE from '../Assets/node.png'
+import NODE from '../Assets/node.jpg'
 import MONGO from '../Assets/mongo.png'
 
 const CourseCards = () => {

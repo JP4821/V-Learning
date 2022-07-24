@@ -1,6 +1,6 @@
 import { Carousel, Button } from 'react-bootstrap'
 import React from 'react'
-import Slide from '../Assets/slide.jpg'
+import Slide from '../Assets/elearning.jpg'
 import Slide1 from '../Assets/slide1.png'
 import Slide2 from '../Assets/webde.jpg'
 import Slide3 from '../Assets/ban.jpg'
@@ -12,9 +12,9 @@ const Herosection = () => {
                 <Carousel.Item>
                     <img src={Slide} alt="First Slider" className="img-fluid" />
                     <Carousel.Caption className="text-start translate-middle">
-                        <h5 className="h5">HOW TO BECOME A</h5>
-                        <h3>FULL STACK WEB DEVELOPER?</h3>
-                        <p>Start your new career as a Full Stack Web Developer</p>
+                        <h5 className="">Learn without limits</h5>
+                        <h3 className="">Expand your career opportunities with <br />V-Learning</h3>
+                        <p className="">Start, switch, or advance your career with V-Learning</p>
                         <Button variant="warning" className="px-5 px-sm-2">Register Now</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -35,7 +35,7 @@ const Herosection = () => {
                         <h5 className="">Desktop, mobile, tablet and beyond</h5>
                         <p className="fst-normal">To fit the size of the screen it’s viewed on any device <br /> Desktop, notebook, smartphone, tablet etc.</p>
                         {/* <Button variant="warning" className="px-5 px-sm-2 px-xs-2">Register Now</Button> */}
-                        <Button variant="info" className="px-5 ms-2 px-sm-2 px-xs-2">Contact Now</Button>
+                        <Button variant="info" className="px-5 px-sm-2 px-xs-2">Contact Now</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -45,7 +45,7 @@ const Herosection = () => {
                         <h5 className="text-dark">Desktop, mobile, tablet and beyond</h5>
                         <p className="text-dark fst-normal">To fit the size of the screen it’s viewed on any device <br /> Desktop, notebook, smartphone, tablet etc.</p>
                         {/* <Button variant="warning" className="px-5 px-sm-2 px-xs-2">Register Now</Button> */}
-                        <Button variant="info" className="px-5 ms-2 px-sm-2 px-xs-2">Download Syllabus</Button>
+                        <Button variant="info" className="px-5 px-sm-2 px-xs-2">Download Syllabus</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
