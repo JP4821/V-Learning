@@ -16,6 +16,10 @@ body {
   top: 50% !important;
   left: 35% !important;
 }
+.coursedet h4{
+  font-size: 21px;
+  font-weight: 600;
+}
 .cours {
   background-color: #d6eef2;
 }

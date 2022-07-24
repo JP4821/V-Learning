@@ -2,7 +2,8 @@ import { Carousel, Button } from 'react-bootstrap'
 import React from 'react'
 import Slide from '../Assets/slide.jpg'
 import Slide1 from '../Assets/slide1.png'
-import Slide2 from '../Assets/slide2.png'
+import Slide2 from '../Assets/webde.jpg'
+import Slide3 from '../Assets/ban.jpg'
 
 const Herosection = () => {
     return (
@@ -30,13 +31,20 @@ const Herosection = () => {
                 <Carousel.Item>
                     <img src={Slide2} alt="Second Slider" className="img-fluid" />
                     <Carousel.Caption className="text-start translate-middle">
-                        <h3>Become a Full Stack Developer with V Learning Program</h3>
-                        <ul>
-                            <li>Upskill in DSA & System Design with specialization in Full Stack Development</li>
-                            <li>Build real-world projects by mastering React, MERN, JavaScript, etc.</li>
-                            <li>Learn the essential Full Stack development concepts from scratch</li>
-                        </ul>
-                        <Button variant="warning" className="px-5 px-sm-2 px-xs-2">Register Now</Button>
+                        <h3 className=''>RESPONSIVE WEBSITE DESIGN</h3>
+                        <h5 className="">Desktop, mobile, tablet and beyond</h5>
+                        <p className="fst-normal">To fit the size of the screen it’s viewed on any device <br /> Desktop, notebook, smartphone, tablet etc.</p>
+                        {/* <Button variant="warning" className="px-5 px-sm-2 px-xs-2">Register Now</Button> */}
+                        <Button variant="info" className="px-5 ms-2 px-sm-2 px-xs-2">Contact Now</Button>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img src={Slide3} alt="Third Slider" className="img-fluid" />
+                    <Carousel.Caption className="text-start translate-middle">
+                        <h3 className='mb-0 text-dark'>WEBSITE DESIGN & DEVELOPEMENT</h3>
+                        <h5 className="text-dark">Desktop, mobile, tablet and beyond</h5>
+                        <p className="text-dark fst-normal">To fit the size of the screen it’s viewed on any device <br /> Desktop, notebook, smartphone, tablet etc.</p>
+                        {/* <Button variant="warning" className="px-5 px-sm-2 px-xs-2">Register Now</Button> */}
                         <Button variant="info" className="px-5 ms-2 px-sm-2 px-xs-2">Download Syllabus</Button>
                     </Carousel.Caption>
                 </Carousel.Item>
