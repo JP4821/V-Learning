@@ -23,7 +23,8 @@ const Footer = () => {
                     <Col md={3}>
                         <h4>Quick Links</h4>
                         <Nav className="flex-column">
-                            <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Corporate Training</Nav.Link>
+                            <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Website Design</Nav.Link>
+                            <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Website Development</Nav.Link>
                             <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Explore Courses</Nav.Link>
                             <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">CV Profile</Nav.Link>
                             <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Contact Us</Nav.Link>
