@@ -36,7 +36,7 @@ const CourseCards = () => {
                         <Card>
                             <Card.Img variant="top" src={CSS3} />
                             <Card.Body  className="pt-1 pb-0">
-                                <Card.Title className="mb-0">HTML5</Card.Title>
+                                <Card.Title className="mb-0">CSS3</Card.Title>
                                 <Card.Text className="mb-0 pb-0">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                                 </Card.Text>
@@ -51,7 +51,7 @@ const CourseCards = () => {
                         <Card>
                             <Card.Img variant="top" src={JS} />
                             <Card.Body  className="pt-1 pb-0">
-                                <Card.Title className="mb-0">HTML5</Card.Title>
+                                <Card.Title className="mb-0">JavaScript</Card.Title>
                                 <Card.Text className="mb-0 pb-0">
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                                 </Card.Text>

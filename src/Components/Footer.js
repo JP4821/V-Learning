@@ -17,6 +17,7 @@ const Footer = () => {
                             <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Front-End Developer</Nav.Link>
                             <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Back-End Developer</Nav.Link>
                             <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Full-Stack Developer</Nav.Link>
+                            <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Database Management Systems</Nav.Link>
                             <Nav.Link href="#" className="py-0 foo-link text-light text-opacity-75">Interview Questions</Nav.Link>
                         </Nav>
                     </Col>
