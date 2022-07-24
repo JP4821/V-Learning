@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/V-Learning/static/css/main.5d9172e3.css",
-    "main.js": "/V-Learning/static/js/main.363c4166.js",
+    "main.js": "/V-Learning/static/js/main.9865d25b.js",
     "static/js/787.a42bda54.chunk.js": "/V-Learning/static/js/787.a42bda54.chunk.js",
     "static/media/node.png": "/V-Learning/static/media/node.7f018a10009f90a69f52.png",
     "static/media/slide2.png": "/V-Learning/static/media/slide2.5865c9d3d5c3312977c2.png",
@@ -23,11 +23,11 @@
     "static/media/projects.svg": "/V-Learning/static/media/projects.0ef7ad1830169128a8684dd108cb4a75.svg",
     "index.html": "/V-Learning/index.html",
     "main.5d9172e3.css.map": "/V-Learning/static/css/main.5d9172e3.css.map",
-    "main.363c4166.js.map": "/V-Learning/static/js/main.363c4166.js.map",
+    "main.9865d25b.js.map": "/V-Learning/static/js/main.9865d25b.js.map",
     "787.a42bda54.chunk.js.map": "/V-Learning/static/js/787.a42bda54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d9172e3.css",
-    "static/js/main.363c4166.js"
+    "static/js/main.9865d25b.js"
   ]
 }
