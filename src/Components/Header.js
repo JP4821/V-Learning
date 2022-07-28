@@ -9,9 +9,11 @@ const Header = () => {
         <>
             <Navbar expand="lg" variant="light" className="bgColor"  fixed="top" sticky="top">
                 <Container>
-                    <Navbar.Brand href="#">
-                        <img src={Logo} alt="" />
-                    </Navbar.Brand>
+                    <LinkContainer to={'/V-Learning'}>
+                        <Navbar.Brand href="#">
+                            <img src={Logo} alt="" />
+                        </Navbar.Brand>
+                    </LinkContainer>
                     <Navbar.Toggle aria-controls='offCanvasNavbar' />
                     <Navbar.Offcanvas id="offCanvasNavbar" placement="start">
                         <Offcanvas.Header closeButton>
@@ -19,34 +21,34 @@ const Header = () => {
                         </Offcanvas.Header>
                         <Offcanvas.Body className="">
                             <Nav className="ms-auto fw-semibold pt-lg-2">
-                                <LinkContainer to={'/'}>
+                                <LinkContainer to={'/V-Learning'}>
                                     <Nav.Link>Home</Nav.Link>
                                 </LinkContainer>
                                 <NavDropdown title="What We Do" className="drop" >
-                                    <LinkContainer to={'/web-design'}>
+                                    <LinkContainer to={'/V-Learning/web-design'}>
                                         <NavDropdown.Item>Web Designing</NavDropdown.Item>
                                     </LinkContainer>
-                                    <LinkContainer to={'/web-develop'}>
+                                    <LinkContainer to={'/V-Learning/web-develop'}>
                                         <NavDropdown.Item>Web Developement</NavDropdown.Item>
                                     </LinkContainer>
                                 </NavDropdown>
-                                <LinkContainer to={'/courses'}>
+                                <LinkContainer to={'/V-Learning/courses'}>
                                     <Nav.Link>Explore Courses</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to={'/profile'}>
+                                <LinkContainer to={'/V-Learning/profile'}>
                                     <Nav.Link>CV Profile</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to={'/contact'}>
+                                <LinkContainer to={'/V-Learning/contact'}>
                                     <Nav.Link>Contact Us</Nav.Link>
                                 </LinkContainer>
                             </Nav>
                             <Nav>
-                                <LinkContainer to={'/login'}>
+                                <LinkContainer to={'/V-Learning/login'}>
                                     <Nav.Link className="d-grid" href={'/login'}>
                                         <Button variant="warning"><i className='fas fa-sign-in-alt'></i> Sign In</Button>
                                     </Nav.Link>
                                 </LinkContainer>  
-                                <LinkContainer to={'/login'}>                    
+                                <LinkContainer to={'/V-Learning/login'}>                    
                                     <Nav.Link className="d-grid">
                                         <Button variant="danger"><i className='fas fa-users'></i> Sign Up</Button>
                                     </Nav.Link>
