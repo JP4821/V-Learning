@@ -15,13 +15,13 @@ function App() {
       <section>
         <BR>
             <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/login' element={<Login />} />
-                <Route path='/web-design' element={<WebDesign />} />
-                <Route path='/web-develop' element={<WebDevelop />} />
-                <Route path='/courses' element={<Courses />} />
-                <Route path='/profile' element={<Profile />} />
-                <Route path='/contact' element={<Contact />} />
+                <Route path='/V-Learning' element={<Home />} />
+                <Route path='/V-Learning/login' element={<Login />} />
+                <Route path='/V-Learning/web-design' element={<WebDesign />} />
+                <Route path='/V-Learning/web-develop' element={<WebDevelop />} />
+                <Route path='/V-Learning/courses' element={<Courses />} />
+                <Route path='/V-Learning/profile' element={<Profile />} />
+                <Route path='/V-Learning/contact' element={<Contact />} />
             </Routes>
         </BR>
       </section>
