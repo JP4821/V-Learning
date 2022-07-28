@@ -1,25 +1,30 @@
 import './App.css';
-import BecomeFullStack from './Components/BecomeFullStack';
-import CourseCards from './Components/CourseCards';
-import Coursespan from './Components/Coursespan';
-import Footer from './Components/Footer';
-import Header from './Components/Header';
-import Herosection from './Components/Herosection';
-import KeySkills from './Components/KeySkills';
-import MobileBottom from './Components/MobileBottom';
+import Home from './Pages/Home';
+import Login from './Accounts/Login'
+import {BrowserRouter as BR, Routes, Route} from 'react-router-dom'
+import { Container, Row, Col } from 'react-bootstrap'
+import WebDesign from './Pages/WebDesign';
+import Courses from './Pages/Courses';
+import Profile from './Pages/Profile';
+import Contact from './Pages/Contact';
+import WebDevelop from './Pages/WebDevelop';
+
 
 function App() {
   return (
-    <>
-      <Header />
-      <Herosection />
-      <Coursespan />
-      <BecomeFullStack />
-      <CourseCards />
-      <KeySkills />
-      <Footer />
-      <MobileBottom />
-    </>
+      <section>
+        <BR>
+            <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/login' element={<Login />} />
+                <Route path='/web-design' element={<WebDesign />} />
+                <Route path='/web-develop' element={<WebDevelop />} />
+                <Route path='/courses' element={<Courses />} />
+                <Route path='/profile' element={<Profile />} />
+                <Route path='/contact' element={<Contact />} />
+            </Routes>
+        </BR>
+      </section>
   );
 }
 
